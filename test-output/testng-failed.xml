@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ShoeShop]">
+  <test name="MonthlyShoeDisplaysTest(failed)">
+    <classes>
+      <class name="com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest">
+        <methods>
+          <include name="testMonthlyShoeDisplays" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12"/>
+          <include name="verifyTestCaseRunmode"/>
+        </methods>
+      </class> <!-- com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest -->
+      <class name="com.selenium.hybrid.testcases.EmailSubscriptionTest">
+        <methods>
+          <include name="verifyTestCaseRunnable"/>
+        </methods>
+      </class> <!-- com.selenium.hybrid.testcases.EmailSubscriptionTest -->
+    </classes>
+  </test> <!-- MonthlyShoeDisplaysTest(failed) -->
+  <test name="EmailSubscriptionTest(failed)">
+    <classes>
+      <class name="com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest">
+        <methods>
+          <include name="verifyTestCaseRunmode"/>
+        </methods>
+      </class> <!-- com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest -->
+      <class name="com.selenium.hybrid.testcases.EmailSubscriptionTest">
+        <methods>
+          <include name="verifyTestCaseRunnable"/>
+          <include name="testEmailSubscription" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.selenium.hybrid.testcases.EmailSubscriptionTest -->
+    </classes>
+  </test> <!-- EmailSubscriptionTest(failed) -->
+</suite> <!-- Failed suite [ShoeShop] -->

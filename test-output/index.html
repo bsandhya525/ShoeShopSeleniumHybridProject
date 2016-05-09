@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 15 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-ShoeShop">
+              <span class="suite-name border-failed">ShoeShop</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-ShoeShop">
+                    <span>C:\workspace\ShoeShopSeleniumHybridProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-ShoeShop">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-ShoeShop">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-ShoeShop">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-ShoeShop">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-ShoeShop">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-ShoeShop">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods, 15 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ShoeShop" class="hide-methods failed suite-ShoeShop"> (hide)</a> <!-- hide-methods failed suite-ShoeShop -->
+                      <a href="#" panel-name="suite-ShoeShop" class="show-methods failed suite-ShoeShop"> (show)</a> <!-- show-methods failed suite-ShoeShop -->
+                    </span>
+                    <div class="method-list-content failed suite-ShoeShop">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShoeShop" title="com.selenium.hybrid.testcases.EmailSubscriptionTest" hash-for-method="testEmailSubscription({Runmode=Y, Email=bsandhya525@gmail.com})">testEmailSubscription({Runmode=Y, Email=bsandhya525@gmail.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShoeShop" title="com.selenium.hybrid.testcases.EmailSubscriptionTest" hash-for-method="testEmailSubscription({Runmode=Y, Email=bsandhya525@rediffmail.com})">testEmailSubscription({Runmode=Y, Email=bsandhya525@rediffmail.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShoeShop" title="com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest" hash-for-method="testMonthlyShoeDisplays({Month=July, Runmode=Y})">testMonthlyShoeDisplays({Month=July, Runmode=Y})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShoeShop" title="com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest" hash-for-method="testMonthlyShoeDisplays({Month=September, Runmode=Y})">testMonthlyShoeDisplays({Month=September, Runmode=Y})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShoeShop" title="com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest" hash-for-method="testMonthlyShoeDisplays({Month=October, Runmode=Y})">testMonthlyShoeDisplays({Month=October, Runmode=Y})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShoeShop" title="com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest" hash-for-method="testMonthlyShoeDisplays({Month=May, Runmode=Y})">testMonthlyShoeDisplays({Month=May, Runmode=Y})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShoeShop" title="com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest" hash-for-method="testMonthlyShoeDisplays({Month=December, Runmode=Y})">testMonthlyShoeDisplays({Month=December, Runmode=Y})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShoeShop" title="com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest" hash-for-method="testMonthlyShoeDisplays({Month=February, Runmode=Y})">testMonthlyShoeDisplays({Month=February, Runmode=Y})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShoeShop" title="com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest" hash-for-method="testMonthlyShoeDisplays({Month=April, Runmode=Y})">testMonthlyShoeDisplays({Month=April, Runmode=Y})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShoeShop" title="com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest" hash-for-method="testMonthlyShoeDisplays({Month=All Shoes, Runmode=Y})">testMonthlyShoeDisplays({Month=All Shoes, Runmode=Y})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShoeShop" title="com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest" hash-for-method="testMonthlyShoeDisplays({Month=January, Runmode=Y})">testMonthlyShoeDisplays({Month=January, Runmode=Y})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShoeShop" title="com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest" hash-for-method="testMonthlyShoeDisplays({Month=March, Runmode=Y})">testMonthlyShoeDisplays({Month=March, Runmode=Y})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShoeShop" title="com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest" hash-for-method="testMonthlyShoeDisplays({Month=June, Runmode=Y})">testMonthlyShoeDisplays({Month=June, Runmode=Y})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShoeShop" title="com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest" hash-for-method="testMonthlyShoeDisplays({Month=November, Runmode=Y})">testMonthlyShoeDisplays({Month=November, Runmode=Y})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ShoeShop" title="com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest" hash-for-method="testMonthlyShoeDisplays({Month=August, Runmode=Y})">testMonthlyShoeDisplays({Month=August, Runmode=Y})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ShoeShop -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ShoeShop" class="panel ShoeShop">
+          <div class="suite-ShoeShop-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMonthlyShoeDisplays({Month=July, Runmode=Y})">
+                  </a> <!-- testMonthlyShoeDisplays({Month=July, Runmode=Y}) -->
+                  <span class="method-name">testMonthlyShoeDisplays</span>
+                  <span class="parameters">({Month=July, Runmode=Y})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Fail to open the browser expected [true] but found [false]
+	at com.selenium.hybrid.util.Keywords.executeKeywords(Keywords.java:144)
+	at com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest.testMonthlyShoeDisplays(MonthlyShoeDisplaysTest.java:44)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMonthlyShoeDisplays({Month=September, Runmode=Y})">
+                  </a> <!-- testMonthlyShoeDisplays({Month=September, Runmode=Y}) -->
+                  <span class="method-name">testMonthlyShoeDisplays</span>
+                  <span class="parameters">({Month=September, Runmode=Y})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Fail to open the browser expected [true] but found [false]
+	at com.selenium.hybrid.util.Keywords.executeKeywords(Keywords.java:144)
+	at com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest.testMonthlyShoeDisplays(MonthlyShoeDisplaysTest.java:44)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMonthlyShoeDisplays({Month=October, Runmode=Y})">
+                  </a> <!-- testMonthlyShoeDisplays({Month=October, Runmode=Y}) -->
+                  <span class="method-name">testMonthlyShoeDisplays</span>
+                  <span class="parameters">({Month=October, Runmode=Y})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Fail to open the browser expected [true] but found [false]
+	at com.selenium.hybrid.util.Keywords.executeKeywords(Keywords.java:144)
+	at com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest.testMonthlyShoeDisplays(MonthlyShoeDisplaysTest.java:44)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMonthlyShoeDisplays({Month=May, Runmode=Y})">
+                  </a> <!-- testMonthlyShoeDisplays({Month=May, Runmode=Y}) -->
+                  <span class="method-name">testMonthlyShoeDisplays</span>
+                  <span class="parameters">({Month=May, Runmode=Y})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Fail to open the browser expected [true] but found [false]
+	at com.selenium.hybrid.util.Keywords.executeKeywords(Keywords.java:144)
+	at com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest.testMonthlyShoeDisplays(MonthlyShoeDisplaysTest.java:44)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMonthlyShoeDisplays({Month=December, Runmode=Y})">
+                  </a> <!-- testMonthlyShoeDisplays({Month=December, Runmode=Y}) -->
+                  <span class="method-name">testMonthlyShoeDisplays</span>
+                  <span class="parameters">({Month=December, Runmode=Y})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Fail to open the browser expected [true] but found [false]
+	at com.selenium.hybrid.util.Keywords.executeKeywords(Keywords.java:144)
+	at com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest.testMonthlyShoeDisplays(MonthlyShoeDisplaysTest.java:44)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMonthlyShoeDisplays({Month=February, Runmode=Y})">
+                  </a> <!-- testMonthlyShoeDisplays({Month=February, Runmode=Y}) -->
+                  <span class="method-name">testMonthlyShoeDisplays</span>
+                  <span class="parameters">({Month=February, Runmode=Y})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Fail to open the browser expected [true] but found [false]
+	at com.selenium.hybrid.util.Keywords.executeKeywords(Keywords.java:144)
+	at com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest.testMonthlyShoeDisplays(MonthlyShoeDisplaysTest.java:44)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMonthlyShoeDisplays({Month=April, Runmode=Y})">
+                  </a> <!-- testMonthlyShoeDisplays({Month=April, Runmode=Y}) -->
+                  <span class="method-name">testMonthlyShoeDisplays</span>
+                  <span class="parameters">({Month=April, Runmode=Y})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Fail to open the browser expected [true] but found [false]
+	at com.selenium.hybrid.util.Keywords.executeKeywords(Keywords.java:144)
+	at com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest.testMonthlyShoeDisplays(MonthlyShoeDisplaysTest.java:44)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMonthlyShoeDisplays({Month=All Shoes, Runmode=Y})">
+                  </a> <!-- testMonthlyShoeDisplays({Month=All Shoes, Runmode=Y}) -->
+                  <span class="method-name">testMonthlyShoeDisplays</span>
+                  <span class="parameters">({Month=All Shoes, Runmode=Y})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Fail to open the browser expected [true] but found [false]
+	at com.selenium.hybrid.util.Keywords.executeKeywords(Keywords.java:144)
+	at com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest.testMonthlyShoeDisplays(MonthlyShoeDisplaysTest.java:44)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMonthlyShoeDisplays({Month=January, Runmode=Y})">
+                  </a> <!-- testMonthlyShoeDisplays({Month=January, Runmode=Y}) -->
+                  <span class="method-name">testMonthlyShoeDisplays</span>
+                  <span class="parameters">({Month=January, Runmode=Y})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Fail to open the browser expected [true] but found [false]
+	at com.selenium.hybrid.util.Keywords.executeKeywords(Keywords.java:144)
+	at com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest.testMonthlyShoeDisplays(MonthlyShoeDisplaysTest.java:44)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMonthlyShoeDisplays({Month=March, Runmode=Y})">
+                  </a> <!-- testMonthlyShoeDisplays({Month=March, Runmode=Y}) -->
+                  <span class="method-name">testMonthlyShoeDisplays</span>
+                  <span class="parameters">({Month=March, Runmode=Y})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Fail to open the browser expected [true] but found [false]
+	at com.selenium.hybrid.util.Keywords.executeKeywords(Keywords.java:144)
+	at com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest.testMonthlyShoeDisplays(MonthlyShoeDisplaysTest.java:44)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMonthlyShoeDisplays({Month=June, Runmode=Y})">
+                  </a> <!-- testMonthlyShoeDisplays({Month=June, Runmode=Y}) -->
+                  <span class="method-name">testMonthlyShoeDisplays</span>
+                  <span class="parameters">({Month=June, Runmode=Y})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Fail to open the browser expected [true] but found [false]
+	at com.selenium.hybrid.util.Keywords.executeKeywords(Keywords.java:144)
+	at com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest.testMonthlyShoeDisplays(MonthlyShoeDisplaysTest.java:44)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMonthlyShoeDisplays({Month=November, Runmode=Y})">
+                  </a> <!-- testMonthlyShoeDisplays({Month=November, Runmode=Y}) -->
+                  <span class="method-name">testMonthlyShoeDisplays</span>
+                  <span class="parameters">({Month=November, Runmode=Y})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Fail to open the browser expected [true] but found [false]
+	at com.selenium.hybrid.util.Keywords.executeKeywords(Keywords.java:144)
+	at com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest.testMonthlyShoeDisplays(MonthlyShoeDisplaysTest.java:44)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMonthlyShoeDisplays({Month=August, Runmode=Y})">
+                  </a> <!-- testMonthlyShoeDisplays({Month=August, Runmode=Y}) -->
+                  <span class="method-name">testMonthlyShoeDisplays</span>
+                  <span class="parameters">({Month=August, Runmode=Y})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Fail to open the browser expected [true] but found [false]
+	at com.selenium.hybrid.util.Keywords.executeKeywords(Keywords.java:144)
+	at com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest.testMonthlyShoeDisplays(MonthlyShoeDisplaysTest.java:44)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ShoeShop-class-failed -->
+          <div class="suite-ShoeShop-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.selenium.hybrid.testcases.EmailSubscriptionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmailSubscription({Runmode=Y, Email=bsandhya525@gmail.com})">
+                  </a> <!-- testEmailSubscription({Runmode=Y, Email=bsandhya525@gmail.com}) -->
+                  <span class="method-name">testEmailSubscription</span>
+                  <span class="parameters">({Runmode=Y, Email=bsandhya525@gmail.com})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Fail to open the browser expected [true] but found [false]
+	at com.selenium.hybrid.util.Keywords.executeKeywords(Keywords.java:144)
+	at com.selenium.hybrid.testcases.EmailSubscriptionTest.testEmailSubscription(EmailSubscriptionTest.java:43)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmailSubscription({Runmode=Y, Email=bsandhya525@rediffmail.com})">
+                  </a> <!-- testEmailSubscription({Runmode=Y, Email=bsandhya525@rediffmail.com}) -->
+                  <span class="method-name">testEmailSubscription</span>
+                  <span class="parameters">({Runmode=Y, Email=bsandhya525@rediffmail.com})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Fail to open the browser expected [true] but found [false]
+	at com.selenium.hybrid.util.Keywords.executeKeywords(Keywords.java:144)
+	at com.selenium.hybrid.testcases.EmailSubscriptionTest.testEmailSubscription(EmailSubscriptionTest.java:43)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ShoeShop-class-failed -->
+        </div> <!-- panel ShoeShop -->
+        <div panel-name="test-xml-ShoeShop" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\workspace\ShoeShopSeleniumHybridProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;ShoeShop&quot;&gt;
+  &lt;test name=&quot;MonthlyShoeDisplaysTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MonthlyShoeDisplaysTest --&gt;
+  &lt;test name=&quot;EmailSubscriptionTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.hybrid.testcases.EmailSubscriptionTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EmailSubscriptionTest --&gt;
+&lt;/suite&gt; &lt;!-- ShoeShop --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ShoeShop" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ShoeShop</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">MonthlyShoeDisplaysTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">EmailSubscriptionTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ShoeShop" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ShoeShop</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ShoeShop" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ShoeShop</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ShoeShop');
+function tableData_ShoeShop() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testMonthlyShoeDisplays')
+data.setCell(0, 2, 'com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest')
+data.setCell(0, 3, 2665);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testMonthlyShoeDisplays')
+data.setCell(1, 2, 'com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest')
+data.setCell(1, 3, 2126);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testMonthlyShoeDisplays')
+data.setCell(2, 2, 'com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest')
+data.setCell(2, 3, 2085);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testMonthlyShoeDisplays')
+data.setCell(3, 2, 'com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest')
+data.setCell(3, 3, 2055);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testMonthlyShoeDisplays')
+data.setCell(4, 2, 'com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest')
+data.setCell(4, 3, 2029);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testMonthlyShoeDisplays')
+data.setCell(5, 2, 'com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest')
+data.setCell(5, 3, 2024);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testEmailSubscription')
+data.setCell(6, 2, 'com.selenium.hybrid.testcases.EmailSubscriptionTest')
+data.setCell(6, 3, 2022);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testMonthlyShoeDisplays')
+data.setCell(7, 2, 'com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest')
+data.setCell(7, 3, 1993);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testEmailSubscription')
+data.setCell(8, 2, 'com.selenium.hybrid.testcases.EmailSubscriptionTest')
+data.setCell(8, 3, 1993);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testMonthlyShoeDisplays')
+data.setCell(9, 2, 'com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest')
+data.setCell(9, 3, 1978);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testMonthlyShoeDisplays')
+data.setCell(10, 2, 'com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest')
+data.setCell(10, 3, 1965);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testMonthlyShoeDisplays')
+data.setCell(11, 2, 'com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest')
+data.setCell(11, 3, 1963);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testMonthlyShoeDisplays')
+data.setCell(12, 2, 'com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest')
+data.setCell(12, 3, 1954);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testMonthlyShoeDisplays')
+data.setCell(13, 2, 'com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest')
+data.setCell(13, 3, 1946);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testMonthlyShoeDisplays')
+data.setCell(14, 2, 'com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest')
+data.setCell(14, 3, 1915);
+window.suiteTableData['ShoeShop']= { tableData: data, tableDiv: 'times-div-ShoeShop'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <div id="times-div-ShoeShop">
+              </div> <!-- times-div-ShoeShop -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ShoeShop" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ShoeShop</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ShoeShop" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ShoeShop" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">verifyTestCaseRunmode</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testMonthlyShoeDisplays({Month=January, Runmode=Y})</span>
+                <span class="method-start">526 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testMonthlyShoeDisplays({Month=February, Runmode=Y})</span>
+                <span class="method-start">3193 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testMonthlyShoeDisplays({Month=March, Runmode=Y})</span>
+                <span class="method-start">5227 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testMonthlyShoeDisplays({Month=April, Runmode=Y})</span>
+                <span class="method-start">7285 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testMonthlyShoeDisplays({Month=May, Runmode=Y})</span>
+                <span class="method-start">9315 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testMonthlyShoeDisplays({Month=June, Runmode=Y})</span>
+                <span class="method-start">11233 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testMonthlyShoeDisplays({Month=July, Runmode=Y})</span>
+                <span class="method-start">13201 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testMonthlyShoeDisplays({Month=August, Runmode=Y})</span>
+                <span class="method-start">15156 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testMonthlyShoeDisplays({Month=September, Runmode=Y})</span>
+                <span class="method-start">17104 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testMonthlyShoeDisplays({Month=October, Runmode=Y})</span>
+                <span class="method-start">19068 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testMonthlyShoeDisplays({Month=November, Runmode=Y})</span>
+                <span class="method-start">21062 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testMonthlyShoeDisplays({Month=December, Runmode=Y})</span>
+                <span class="method-start">23149 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testMonthlyShoeDisplays({Month=All Shoes, Runmode=Y})</span>
+                <span class="method-start">25128 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.hybrid.testcases.EmailSubscriptionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">verifyTestCaseRunnable</span>
+                <span class="method-start">27310 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testEmailSubscription({Runmode=Y, Email=bsandhya525@rediffmail.com})</span>
+                <span class="method-start">27313 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testEmailSubscription({Runmode=Y, Email=bsandhya525@gmail.com})</span>
+                <span class="method-start">29336 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ShoeShop" parallel="tests" thread-count="6">
+
+
+ <test name="MonthlyShoeDisplaysTest_Mozilla">
+	<parameter name="browser" value="Mozilla" />
+	<parameter name="version" value="9.0.1" />
+	<parameter name="platform" value="Windows" />
+    <classes>
+        <class name="com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest_Grid" ></class>  
+    </classes>
+</test>
+
+<test name="MonthlyShoeDisplaysTest_Chrome">
+	<parameter name="browser" value="Chrome" />
+	<parameter name="version" value="50.0.2661.94" />
+	<parameter name="platform" value="Windows" />
+    <classes>
+        <class name="com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest_Grid" ></class>  
+    </classes>
+</test>
+
+<test name="MonthlyShoeDisplaysTest_IE">
+	<parameter name="browser" value="IE" />
+	<parameter name="version" value="11.0.10240.16603" />
+	<parameter name="platform" value="Windows" />
+    <classes>
+        <class name="com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest_Grid" ></class>  
+    </classes>
+</test> 
+
+<!--  <test name="MonthlyShoeDisplaysTest_Edge">
+	<parameter name="browser" value="Edge" />
+	<parameter name="version" value="20.10240.16384.0" />
+	<parameter name="platform" value="Windows" />
+    <classes>
+        <class name="com.selenium.hybrid.testcases.MonthlyShoeDisplaysTest_Grid" ></class>  
+    </classes>
+</test> -->
+
+ <test name="EmailSubscriptionTest_Mozilla">
+	<parameter name="browser" value="Mozilla" />
+	<parameter name="version" value="9.0.1" />
+	<parameter name="platform" value="Windows" />
+    <classes>
+        <class name="com.selenium.hybrid.testcases.EmailSubscriptionTest_Grid" ></class>  
+    </classes>
+</test>
+
+<test name="EmailSubscriptionTest_Chrome">
+	<parameter name="browser" value="Chrome" />
+	<parameter name="version" value="50.0.2661.94" />
+	<parameter name="platform" value="Windows" />
+    <classes>
+        <class name="com.selenium.hybrid.testcases.EmailSubscriptionTest_Grid" ></class>  
+    </classes>
+</test>
+
+<test name="EmailSubscriptionTest_IE">
+	<parameter name="browser" value="IE" />
+	<parameter name="version" value="11.0.10240.16603" />
+	<parameter name="platform" value="Windows" />
+    <classes>
+        <class name="com.selenium.hybrid.testcases.EmailSubscriptionTest_Grid" ></class>  
+    </classes>
+</test> 
+
+<!--  <test name="EmailSubscriptionTest_Edge">
+	<parameter name="browser" value="Edge" />
+	<parameter name="version" value="20.10240.16384.0" />
+	<parameter name="platform" value="Windows" />
+    <classes>
+        <class name="com.selenium.hybrid.testcases.EmailSubscriptionTest_Grid" ></class>  
+    </classes>
+</test> -->
+
+</suite>

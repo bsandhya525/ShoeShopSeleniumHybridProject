@@ -1,0 +1,9 @@
+//starting hub
+
+c:> java -jar selenium-server-standalone-2.53.0.jar -role hub -port 4444 -timeout 30 -browserTimeout 60
+
+
+//registering node
+
+
+C:> java -jar selenium-server-standalone-2.53.0.jar -role webdriver -hub http://localhost:4444/grid/register -host localhost -port 5555 -browser "browserName=chrome,version=50.0.2661.94,maxInstances=1,platform=WINDOWS" -Dwebdriver.chrome.driver=C:\Users\200018798\workspace\ShoeShopSeleniumGrid_DataDrivenProject\drivers\chromedriver.exe
